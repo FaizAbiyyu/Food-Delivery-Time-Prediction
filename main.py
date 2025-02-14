@@ -71,7 +71,7 @@ with tab1:
     st.header("Datasets")
     with st.expander('Data'):
       st.write('**Raw data**')
-      df = pd.read_csv('../Datasets/Food Delivery Time Prediction/Food_Delivery_Times.csv')
+      df = pd.read_csv('Food_Delivery_Times.csv')
       df
       
     with st.expander('Data Cleaning'):
